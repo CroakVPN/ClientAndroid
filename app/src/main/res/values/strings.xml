@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CroakVPN</string>
+    <string name="vpn_connected">Защищено</string>
+    <string name="vpn_disconnected">Не подключено</string>
+    <string name="vpn_connecting">Подключение...</string>
+    <string name="vpn_disconnecting">Отключение...</string>
+    <string name="connect">Подключить</string>
+    <string name="disconnect">Отключить</string>
+    <string name="add_subscription">Добавить подписку</string>
+    <string name="settings">Настройки</string>
+    <string name="notif_channel_name">Статус VPN</string>
+    <string name="notif_channel_desc">Показывает состояние VPN-подключения</string>
+</resources>

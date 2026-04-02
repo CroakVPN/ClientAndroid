@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Frog face -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,20 C35,20 22,33 22,50 C22,62 28,72 38,77 L38,85 C38,87 40,89 42,89 L66,89 C68,89 70,87 70,85 L70,77 C80,72 86,62 86,50 C86,33 73,20 54,20Z" />
+    <!-- Eyes background (white) -->
+    <circle android:fillColor="#FFFFFF" android:cx="40" android:cy="36" android:r="9"/>
+    <circle android:fillColor="#FFFFFF" android:cx="68" android:cy="36" android:r="9"/>
+    <!-- Eye pupils -->
+    <circle android:fillColor="#1A1A1A" android:cx="41" android:cy="37" android:r="5"/>
+    <circle android:fillColor="#1A1A1A" android:cx="69" android:cy="37" android:r="5"/>
+    <!-- Eye shine -->
+    <circle android:fillColor="#FFFFFF" android:cx="43" android:cy="35" android:r="2"/>
+    <circle android:fillColor="#FFFFFF" android:cx="71" android:cy="35" android:r="2"/>
+    <!-- Smile -->
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M44,60 Q54,68 64,60" />
+    <!-- Nostrils -->
+    <circle android:fillColor="#388E3C" android:cx="50" android:cy="52" android:r="2"/>
+    <circle android:fillColor="#388E3C" android:cx="58" android:cy="52" android:r="2"/>
+    <!-- VPN shield on belly -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M54,68 L46,72 L46,77 C46,80 49.5,83 54,84 C58.5,83 62,80 62,77 L62,72 Z"/>
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M54,70 L48,73.5 L48,77 C48,79.2 50.5,81.5 54,82.5 C57.5,81.5 60,79.2 60,77 L60,73.5 Z"/>
+</vector>
