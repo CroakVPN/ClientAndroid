@@ -3,8 +3,6 @@ name: Build APK
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -31,7 +29,6 @@ jobs:
           tar xzf sing-box-1.13.1-android-arm64.tar.gz
           cp sing-box-1.13.1-android-arm64/sing-box app/src/main/assets/libs/sing-box-arm64
           chmod +x app/src/main/assets/libs/sing-box-arm64
-          echo "sing-box size: $(du -sh app/src/main/assets/libs/sing-box-arm64)"
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
